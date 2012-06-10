@@ -2,7 +2,7 @@
 
     /*
      * Returns a PNG image with random string of defined characters.
-	 */
+     */
 	 
 	// Function that creates a random string.
 	function getText($length){
