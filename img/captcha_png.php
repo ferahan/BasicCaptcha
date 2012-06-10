@@ -34,8 +34,8 @@
 	// Set background color.
 	$bgndColor= imagecolorallocate($image, 255, 255, 255);
     
-    // Set font color.
-    $fntColor= imagecolorallocate($image, 0, 0, 0);
+	// Set font color.
+	$fntColor= imagecolorallocate($image, 0, 0, 0);
     
 	// Prints string on indicated coordinates ( 5->Font 25->X axis 25->Y axis ).
 	imagestring($image,5,25,23,$text,$fntColor);
